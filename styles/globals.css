@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('./../components//Login/login.css');
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.servicesComponent {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.servicesImg {
+  display: none;
+}
+
+.servicesImg img {
+  opacity: 0;
+  transition: 500ms;
+}
+
+
+
+
+.servicesDes {
+  display: block;
+}
+
+.servicesImg:hover img {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.servicesComponent:hover .servicesImg {
+
+  display: block;
+}
+
+
+.servicesComponent:hover .servicesDes {
+  display: none;
+}
+
+.del_discount_price{
+  text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+.cartCourseBody:hover .description {
+    display: block;
+}
+
+.description {
+    display: none;
+}
+
+.descriptionOverScrollbar::-webkit-scrollbar {
+    display: none;
+}
